@@ -1,0 +1,18 @@
+2019-04-24T07:18:51+02:00 INFO (6): exception 'InvalidArgumentException' with message 'INVALID_USER' in C:\xampp\htdocs\decoupling\coldchain\application\modules\default\controllers\IndexController.php:74
+Stack trace:
+#0 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Controller\Action.php(516): IndexController->indexAction()
+#1 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#2 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Application\Bootstrap\Bootstrap.php(101): Zend_Controller_Front->dispatch()
+#4 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\xampp\htdocs\decoupling\coldchain\public\index.php(35): Zend_Application->run()
+#6 {main}
+2019-04-24T07:27:11+02:00 INFO (6): exception 'InvalidArgumentException' with message 'INVALID_USER' in C:\xampp\htdocs\decoupling\coldchain\application\modules\default\controllers\IndexController.php:74
+Stack trace:
+#0 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Controller\Action.php(516): IndexController->indexAction()
+#1 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('indexAction')
+#2 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#3 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Application\Bootstrap\Bootstrap.php(101): Zend_Controller_Front->dispatch()
+#4 C:\xampp\htdocs\decoupling\coldchain\library\Zend\Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\xampp\htdocs\decoupling\coldchain\public\index.php(35): Zend_Application->run()
+#6 {main}
